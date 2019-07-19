@@ -10,6 +10,6 @@ RUN cd /script && git clone https://github.com/liuyuan960829/test_a.git
 
 ADD test.m /root/matlab_script/test
 
-RUN chomd 777 -R /root/matlab_script/
+RUN chmod 777 -R /root/matlab_script/
 
 ENTRYPOINT ["/root/matlab_script/test.m"] 
