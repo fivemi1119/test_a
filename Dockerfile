@@ -12,4 +12,4 @@ ADD test.m /root/matlab_script/test
 
 RUN chomd 777 -R /root/matlab_script/
 
-ENTRYPOINT["/root/matlab_script/test.m"] 
+ENTRYPOINT ["/root/matlab_script/test.m"] 
