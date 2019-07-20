@@ -1,2 +1,9 @@
 input('a.mat')
-outputdir('e:\a')
+diary('/home/iuyuan')
+tic
+load('a.mat')
+x1
+pause(100)
+save('home/iuyuan/test')
+toc
+outputdir('/home/iuyuan')
