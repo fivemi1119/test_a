@@ -1,4 +1,4 @@
-FROM daocloud.io/liuyuan960829/matlab_config
+FROM daocloud.io/liuyuan960829/test_docker
 
 MAINTAINER yuan liu <2301794925@qq.com>
 
@@ -8,8 +8,8 @@ RUN mkdir -p /script
 
 RUN cd /script && git clone https://github.com/liuyuan960829/test_a.git
 
-ADD test.m /root/matlab_script/test
+ADD test_a /root/matlab_script/test_a
 
 RUN chmod 777 -R /root/matlab_script/
 
-ENTRYPOINT ["/root/matlab_script/test"] 
+ENTRYPOINT ["/root/matlab_script/test_a"] 
