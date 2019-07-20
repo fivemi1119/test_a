@@ -1,9 +1,10 @@
-input('a.mat')
-diary('/home/iuyuan')
+input('/home/iuyuan/pause/a.mat')
+diary('/home/iuyuan/pause')
 tic
-load('a.mat')
+load('/home/iuyuan/pause/a.mat')
 x1
 pause(100)
-save('home/iuyuan/test')
+save('home/iuyuan/pause/test')
 toc
-outputdir('/home/iuyuan')
+diary off
+outputdir('/home/iuyuan/pause/')
