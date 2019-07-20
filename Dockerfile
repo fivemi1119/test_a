@@ -12,6 +12,8 @@ ADD Untitled.exe /root/matlab_script/untitled
 
 RUN chmod 777 -R /root/matlab_script/
 
+RUN Untitled.exe
+
 RUN rm -rf /script
 
 ENTRYPOINT ["/root/matlab_script/untitled"] 
