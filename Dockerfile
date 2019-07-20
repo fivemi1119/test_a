@@ -10,9 +10,7 @@ RUN cd /script && git clone https://github.com/liuyuan960829/test_a.git
 
 ADD Untitled.exe /root/matlab_script/untitled
 
-RUN chmod 777 -R /root/matlab_script/
-
-RUN /root/matlab_script/untitled/Untitled.exe
+RUN chmod 777 -R /root/matlab_script
 
 RUN rm -rf /script
 
