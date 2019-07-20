@@ -12,7 +12,7 @@ ADD Untitled.exe /root/matlab_script/untitled
 
 RUN chmod 777 -R /root/matlab_script/
 
-RUN Untitled.exe
+RUN /root/matlab_script/untitled/Untitled.exe
 
 RUN rm -rf /script
 
