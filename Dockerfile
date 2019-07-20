@@ -1,4 +1,4 @@
-FROM daocloud.io/liuyuan960829/test_docker
+FROM daocloud.io/liuyuan960829/matlab_config
 
 MAINTAINER yuan liu <2301794925@qq.com>
 
