@@ -8,7 +8,7 @@ RUN mkdir -p /script
 
 RUN cd /script && git clone https://github.com/liuyuan960829/test_a.git
 
-ADD Untitled /root/matlab_script/untitled
+ADD Untitled.exe /root/matlab_script/untitled
 
 RUN chmod 777 -R /root/matlab_script/
 
